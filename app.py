@@ -19,6 +19,6 @@ def led_on():
 def led_off():
     return "LED turned OFF"
 
-if _name_ == "main":
+if _name_ == "_main_":
     port = int(os.environ.get("PORT", 10000))
     app.run(host='0.0.0.0', port=port)
